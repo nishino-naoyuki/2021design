@@ -1,7 +1,7 @@
 ```uml
 @startuml
 
-!define MASTER_MARK_COLOR #ffce00 
+!define MASTER_MARK_COLOR #000000 
 !define TRANSACTION_MARK_COLOR DeepSkyBlue
 
 /'
