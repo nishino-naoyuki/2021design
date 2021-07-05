@@ -43,7 +43,7 @@ entity "顧客マスタ2" as item <m_item> <<M,MASTER_MARK_COLOR>> {
     }
 }
 
-customer       |o--o{     item
+customer       ------     item
 
 @enduml
 ```
