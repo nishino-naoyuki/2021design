@@ -12,5 +12,7 @@ class "Wizard\n魔法使い" as wizard{
 }
 class "MetalSlime\nメタルスライム" as metalSlime{
 }
+
+creature <-- braver
 @enduml
 ```
