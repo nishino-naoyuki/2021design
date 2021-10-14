@@ -1,10 +1,10 @@
 ```UML
 @startuml
-class "Creature\n生物" as creature{
+abstract class "Creature\n生物" as creature{
 }
 class "Braver\n勇者" as braver{
 }
-class "Monster\nモンスター" as monster{
+abstract class "Monster\nモンスター" as monster{
 }
 class "Slime\nスライム" as slime{
 }
