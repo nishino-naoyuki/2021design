@@ -45,8 +45,8 @@ class "RPGMain\nメインクラス" as main{
 
 creature <|-- braver
 creature <|-- monster
-monster <|- slime
-monster <|- wizard
-monster <|- metalSlime
+monster <|-- slime
+monster <|-- wizard
+monster <|-- metalSlime
 @enduml
 ```
