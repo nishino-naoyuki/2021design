@@ -3,7 +3,7 @@
 abstract class "Creature\n生物" as creature{
   -String name
   -int hp
-  {abstract} #void attack(Creature opponent)
+  {abstract} +void attack(Creature opponent)
   +void damaged(int damage)
   +boolean isAlive()
   +String getName()
