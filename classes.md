@@ -14,5 +14,9 @@ class "MetalSlime\nメタルスライム" as metalSlime{
 }
 
 creature <|-- braver
+creature <|-- monster
+monster <|-- slime
+monster <|-- wizard
+monster <|-- metalSlime
 @enduml
 ```
