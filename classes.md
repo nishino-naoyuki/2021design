@@ -43,10 +43,10 @@ class "RPGMain\nメインクラス" as main{
   -boolean isNotThereAllMonster()
 }
 
-creature <|-- braver
-creature <|-- monster
-monster <|-- slime
-monster <|-- wizard
-monster <|-- metalSlime
+creature <|- braver
+creature <|- monster
+monster <|- slime
+monster <|- wizard
+monster <|- metalSlime
 @enduml
 ```
