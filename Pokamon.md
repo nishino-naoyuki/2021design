@@ -51,7 +51,7 @@ class "PokamonEsper\n超タイプ" as pokamonEsper{
   #boolean isStrongFor(Pokamon opp)
 }
 
-class "PokamonFire\n炎タイプ" as pokamonFire{
+abstract class "PokamonFire\n炎タイプ" as pokamonFire{
   +void execSpecialAttack(Pokamon opp)
   +boolean isRecoverHp()
   +String getTypeName()
@@ -61,7 +61,7 @@ class "PokamonFire\n炎タイプ" as pokamonFire{
   #boolean isStrongFor(Pokamon opp)
 }
 
-class "PokamonSteel\n鋼タイプ" as pokamonSteel{
+abstract class "PokamonSteel\n鋼タイプ" as pokamonSteel{
   +void execSpecialAttack(Pokamon opp)
   +boolean isRecoverHp()
   +String getTypeName()
@@ -71,7 +71,7 @@ class "PokamonSteel\n鋼タイプ" as pokamonSteel{
   #boolean isStrongFor(Pokamon opp)
 }
 
-class "PokamonVolt\n雷タイプ" as pokamonVolt{
+abstract class "PokamonVolt\n雷タイプ" as pokamonVolt{
   +void execSpecialAttack(Pokamon opp)
   +boolean isRecoverHp()
   +String getTypeName()
@@ -81,7 +81,7 @@ class "PokamonVolt\n雷タイプ" as pokamonVolt{
   #boolean isStrongFor(Pokamon opp)
 }
 
-class "PokamonWater\n水タイプ" as pokamonWater{
+abstract class "PokamonWater\n水タイプ" as pokamonWater{
   +void execSpecialAttack(Pokamon opp)
   +boolean isRecoverHp()
   +String getTypeName()
@@ -91,7 +91,7 @@ class "PokamonWater\n水タイプ" as pokamonWater{
   #boolean isStrongFor(Pokamon opp)
 }
 
-class "PolamonGrass\n草タイプ" as polamonGrass{
+abstract class "PolamonGrass\n草タイプ" as polamonGrass{
   +void execSpecialAttack(Pokamon opp)
   +boolean isRecoverHp()
   +String getTypeName()
@@ -101,7 +101,7 @@ class "PolamonGrass\n草タイプ" as polamonGrass{
   #boolean isStrongFor(Pokamon opp)
 }
 
-class "Main\nメインクラス" as main{
+abstract class "Main\nメインクラス" as main{
     -Pokamon blueFighters[]
     -Pokamon redFighters[]
     -int blueWinNum
