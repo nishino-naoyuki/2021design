@@ -123,6 +123,7 @@ class "Main\nメインクラス" as main{
   -void dispWinTeam()
 }
 
+scale 1.5
 pokamon <|-- pokamonEsper
 pokamon <|-- pokamonFire
 pokamon <|-- pokamonSteel
